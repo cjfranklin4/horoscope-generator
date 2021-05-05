@@ -1,2 +1,2 @@
-# horoscope-generator
+# Horoscope Generator
  
