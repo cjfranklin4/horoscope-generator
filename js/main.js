@@ -1,5 +1,3 @@
-
-
 document.querySelector("#testSubmit").addEventListener("click", horoscope);
 
 function horoscope() {
@@ -51,51 +49,77 @@ function horoscope() {
     //Posting Your Horoscope to the DOM
     if (horoDate > aquaStart && horoDate < aquaEnd){
         console.log('Aqua')
-        document.querySelector("#horo_here").innerText = `I am an Aqua!`
-        Though love may portray a rosy picture for you, today you end up having a tough time managing relationship. Be patient, advises Ganesha.
+        document.querySelector("#horo_here").innerText = `You are a Aquarius!
+
+        Be patient with yourself today you as may end up having a tough time managing relationships with those close to you.`
         
     } else if (horoDate > piStart && horoDate < piEnd) {
         console.log('Pi')
-        Small things will give you happiness today. In short, your day after noon time will be easy going and lucky.
+        document.querySelector("#horo_here").innerText = `You are a Pisces!
+
+        Small things will bring you the most happiness today. Take your time and appreciate them!`
 
     } else if (horoDate > arStart && horoDate < arEnd) {
         console.log('Aries')
-        You need to keep yourself filled with hope and optimism. This will help to handle the worries in your mind and bring about better outcomes.
+        document.querySelector("#horo_here").innerText = `You are a Aries!
+
+        Keep yourself filled with hope and optimism. A positive mindset will help you handle your worries and bring about better outcomes in life.`
 
 
     } else if (horoDate > taStart && horoDate < taEnd){
         console.log('Taurus')
-        There is an unexpected occurrence waiting at every bend and turn in your path today. With maturity for sword and mellowness as shield, you will sift through everything that life throws at you.
+        document.querySelector("#horo_here").innerText = `You are a Taurus!
+
+        There is an exepected occurance waiting to throw you off your game today. But your calmness and maturity will keep you balanced.`
 
     } else if (horoDate > gemStart && horoDate < gemEnd){
         console.log('Gemini')
-        A feeling of insecurity may upset you, making you restless. Try to divert your mind by reading a self-help book
+        document.querySelector("#horo_here").innerText = `You are a Gemini!
+
+        Feelings of insecurity may surface today, making you nervous. Try doing something that makes you happy to boost your confidence.`
 
     } else if (horoDate > canStart && horoDate < canEnd){
         console.log('Cancer')
-        Ganesha says higher officials at work will shower you with appreciation and praise for your efforts. You may even be able to get a promotion or a pay rise today.
+        document.querySelector("#horo_here").innerText = `You are a Cancer!
+
+
+        You will be showered with appreciation and praise for your efforts at work. You might even be able to get a promotion or a pay rise today.`
 
     } else if (horoDate > leoStart && horoDate < leoEnd){
         console.log('Leo')
-        New relationships will get a chance to blossom today.
+        document.querySelector("#horo_here").innerText = `You are a Leo!
+
+        New relationships will get a chance to blossom today. Be open to talking with someone you may not know.`
+
     } else if (horoDate > virStart && horoDate < virEnd){
         console.log('Virgo')
-        In the afternoon, though, you may hit a roadblock, and you will feel stressed out. However, all that stress will melt away in the evening in the company of your near and dear ones.
+        document.querySelector("#horo_here").innerText = `You are a Virgo!
+
+        You may hit a roadblock today and become stressed. Don't worry, though, as the stress will melt away as you spend time with your loved ones.`
 
     } else if (horoDate > libStart && horoDate < libEnd){
         console.log('Libra')
-        The day may start off on a tense note but by evening, things will be peaceful and calm
+        document.querySelector("#horo_here").innerText = `You are a Libra!
+
+        The day may start off on a tense note but by evening, things will be peaceful and calm`
 
     } else if (horoDate > scoStart && horoDate < scoEnd){
         console.log('Scorpio')
-        While the schedule you have planned for today will see some major changes, you will still stick by your decisions resolutely.
+        document.querySelector("#horo_here").innerText = `You are a Scorpio!
+
+        Your plans for today will see major changes due to an unexpected occurance, but you make progress in everything you had set out to do.`
 
     } else if (horoDate > sagStart && horoDate < sagEnd){
         console.log('Sagittarius')
-        You will look beyond the criticism coming your way and develop an understanding to aim for a better future.
+        document.querySelector("#horo_here").innerText = `You are a Sagittarius!
+
+        You will look past the criticism coming your way and make progress on your goals and dreams for the future.`
 
     } else if (horoDate > capStart && horoDate < capEnd) {
-        You will understand the importance of constructive criticism and learn to improve upon your behaviour
+        document.querySelector("#horo_here").innerText = `You are a Capricorn!
+
+
+        You will understand the importance of constructive criticism and learn to use it to better yourself.`
 
     } else {
         alert('Please enter a date.')
