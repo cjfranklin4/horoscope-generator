@@ -102,14 +102,13 @@ function horoscope() {
         document.querySelector("#horo_here").innerText = `You are a Sagittarius!`
         document.querySelector("#horo_p").innerText=`You will look past the criticism coming your way and make progress on your goals and dreams for the future.`
    
-    } else if (horoDate > capStart || horoDate < capEnd) {
+    } else if ( (horoDate > capStart.setFullYear(capStart.getFullYear() - 1) && horoDate < capEnd) || (horoDate > capStart && horoDate < capEnd.setFullYear(capEnd.getFullYear() - 1)) ) {
         document.querySelector("#horo_here").innerText = `You are a Capricorn!`
         document.querySelector("#horo_p").innerText=`You will understand the importance of constructive criticism and learn to use it to better yourself.`
+
+     
    
     } else {
-        console.log(capStart)
-        console.log(capEnd)
-        console.log(horoDate)
         alert('Please enter a date.')
     }
     

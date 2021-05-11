@@ -24,11 +24,17 @@ h1, h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /*justify-content: space-around;*/
     height:800px;
     width:800px;
-    background-color:rgba(116, 135, 193, 0.75);
+    background-color:rgba(152, 145, 142, 0.8);
+    border:1px solid white;
     border-radius:16px;
+}
+
+.main p{
+    width:600px;
+    margin-bottom: 20px;
 }
 
 .horo_form{
@@ -42,7 +48,7 @@ h1, h2{
     font-size: 16px;
     height:50px;
     width:100px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #horo_p{
