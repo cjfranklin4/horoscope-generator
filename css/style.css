@@ -2,6 +2,50 @@
     box-sizing: border-box;
 }
 
-.horo_form{
+body{
+    color:white;
+    font-family: 'DM Sans', sans-serif;
+    background-image: url('/img/background.jpg');
+    background-size: 100vw 100vh;
+    font-size: 24px;
+  
+}
 
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:800px;
+    width:800px;
+    background-color:rgba(116, 135, 193, 0.75);
+    border-radius:16px;
+}
+
+.horo_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.horo_form button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    height:50px;
+    width:100px;
+    margin-top: 10px;
+}
+
+#horo_p{
+    width:600px;
+    text-align: center;
 }
